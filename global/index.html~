@@ -1,0 +1,515 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Pyramid Garden</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="description" content="HTML5 website template">
+  <meta name="keywords" content="global, template, html, sass, jquery">
+  <meta name="author" content="Bucky Maler">
+  <link rel="stylesheet" href="assets/css/main.css">
+  <link rel="stylesheet" href="Lightbox/dist/css/lumos.css">
+  
+</head>
+<body>
+
+<!-- notification for small viewports and landscape oriented smartphones -->
+<div class="device-notification">
+  <a class="device-notification--logo" href="#0">
+    <img src="assets/img/logo.png" alt="Pyramid Garden">
+    <p>Pyramid Garden</p>
+  </a>
+  <p class="device-notification--message">Pyramid Garden has so much to offer that we must request you orient your device to portrait or find a larger screen. You won't be disappointed.</p>
+</div>
+
+<div class="perspective effect-rotate-left">
+  <div class="container"><div class="outer-nav--return"></div>
+    <div id="viewport" class="l-viewport">
+      <div class="l-wrapper">
+        <header class="header">
+          <a class="header--logo" href="#0">
+            <img src="assets/img/logo.png" alt="Pyramid Garden">
+            <p>Pyramid Garden</p>
+          </a>
+          <button class="header--cta cta">Order Now</button>
+          <div class="header--nav-toggle">
+            <span></span>
+          </div>
+        </header>
+        <nav class="l-side-nav">
+          <ul class="side-nav">
+            <li class="is-active"><span>Home</span></li>
+            <li><span>Features</span></li>
+            <li><span>Models</span></li>
+            <li><span>Pictures</span></li>
+            <li><span>Order</span></li>
+          </ul>
+        </nav>
+        <ul class="l-main-content main-content">
+          <li class="l-section section section--is-active">
+            <div class="intro">
+              <div class="intro--banner">
+                <h1><font color="lightgreen">Space</font><br>is not a<br><font color="red">Constraint</font><br>anymore!</h1>
+                <button class="cta">Order now
+                  <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 150 118" style="enable-background:new 0 0 150 118;" xml:space="preserve">
+                  <g transform="translate(0.000000,118.000000) scale(0.100000,-0.100000)">
+                    <path d="M870,1167c-34-17-55-57-46-90c3-15,81-100,194-211l187-185l-565-1c-431,0-571-3-590-13c-55-28-64-94-18-137c21-20,33-20,597-20h575l-192-193C800,103,794,94,849,39c20-20,39-29,61-29c28,0,63,30,298,262c147,144,272,271,279,282c30,51,23,60-219,304C947,1180,926,1196,870,1167z"/>
+                  </g>
+                  </svg>
+                  <span class="btn-background"></span>
+                </button>
+                <img src="assets/img/intro-pyrgdn.png" alt="Welcome">
+              </div>
+              <div class="intro--options">
+                <a href="#openModalSpace">
+                  <h3>Space Multiplying Design</h3>
+                  <p>Grow 42 plants in just 5.85 sq.ft! That's a 350% increase in space compared to conventional 2D gardening.</p>
+                </a>
+                <a href="#openModalAdvantages">
+                  <h3>Save Resources & Effort</h3>
+                  <p>Save water and effort. Win over weeds before they are born. Make gardening as enjoyable as it can get!</p>
+                </a>
+                <a href="#openModalComposting">
+                  <h3>Integrated Composting</h3>
+                  <p>Leverage earth worms to compost your kitchen waste <em>AND</em> help your plants</p>
+                </a>
+		<!-- modal -->
+		<div id="openModalSpace" class="modalDialog">
+				<div>
+					<a href="#close" title="Close" class="close">X</a>
+					<div class="large_image">
+						<img src="asset
+s/img/sibling_rivalry.png" alt="Space Multiplication">
+					</div>
+					<div class="content">
+						<h2 class="title">Space Multiplication: 350%</h2>
+						<p>By using the surface of the Pyramid-like shape, we are able to stack up a lot more plants one above the other, for upto 5 layers. This leads to a space gain of 350%!<br><br>The inside of the pyramid is filled with soil mix. It is possible to create inter-cropping patterns - a <em>Guild</em>, or <em>Mandala</em> of your own making!<br><br>To conventionally grow 42 plants in 2D rows requires over 42 square feet. But the Pyramid Garden is able to achieve that in just 6 square feet!<br><br>This vertical stacking up also has many other advantages such as better sharing of water across slope of pyramid.</p>
+					</div>
+				</div>
+		</div>
+		<!-- end modal -->
+		<!-- modal -->
+		<div id="openModalAdvantages" class="modalDialog">
+				<div>
+					<a href="#close" title="Close" class="close">X</a>
+					<div class="large_image">
+						<img src="assets/img/modmulch.gif" alt="Modular Mulch">
+					</div>
+					<div class="content">
+						<h2 class="title">Space, Water & Effort saving</h2>
+						<p>The Modular Mulch is an innovation that provides continuous mulching as well as periodic adding of soil microbes. The Mulch comes filled with soil microbes (ghanajeevamrutham) as well as hay of organic paddy and dry leaves of organic trees such as Neem, Noni, Pongamia, Teak, and so on. It is designed to decompose and become part of the topsoil. It has to be replaced once in every 2-3 months and it can be done without disturbing any of your existing plants on the pyramid! <br><br>The Modular Mulch on the Pyramid Garden prevents growth of weeds, holds the soil in tact without erosion, keeps the soil cooler, reduces moisture evaporation and thus water intake, keeps optimal air circulation, and in general makes it possible to do <em>No Till farming</em> even in your terrace!<br><br>What more? Every replacement of the modular mulch helps rural livelihoods and the revival of the desi cow from whose dung the microbe culture is synthesized.</p>
+					</div>
+				</div>
+		</div>
+		<!-- end modal -->
+		<!-- modal -->
+		<div id="openModalComposting" class="modalDialog">
+				<div>
+					<a href="#close" title="Close" class="close">X</a>
+					<div class="large_image">
+						<img src="assets/img/schematic-composting.png" alt="Integrated Composting">
+					</div>
+					<div class="content">
+						<h2 class="title">Integrated Composting</h2>
+						<p>The Pyramid Garden comes also with a Composting facility. Since the soil mix we recommend involves desi cow dung farm yard manure, the soil mix will contain the eggs of earth worms. These earth worms are not only beneficial to plants, but can also be used for turning our waste into vermicompost! At the center of the pyramid is a pipe with holes all around it. The earth worms can easily move in and out of the composting unit. The wet waste is to be added from the top and after about 2-3 months of proper composting, the compost can be taken out from bottom.<br><br>We estimate that at the peak of earth worm population, this system should be able to process 1-2 KG of wet waste every day<br><br>The vermicasts are cast under the mulch layer as per the natural tendency of the earth worms and this is where the plants' roots are.</p>
+					</div>
+				</div>
+		</div>
+		<!-- end modal -->
+              </div>
+            </div>
+          </li>
+          <li class="l-section section">
+            <div class="work">
+              <h2>Features</h2>
+              <div class="work--lockup">
+                <ul class="slider">
+                  <li class="slider--item slider--item-center">
+                    <a href="#0">
+                      <div class="slider--item-image">
+                        <img src="assets/img/work-metiew-smith.jpg" alt="Natural Farming Embodiment">
+                      </div>
+                      <p class="slider--item-title">Natural &amp; Organic</p>
+                      <p class="slider--item-description">From mulching to soil microbes, from hugulkultur to leveraging earth worms, this product embodies all the key <em>Natural Organic Farming</em> principles into its design.</p>
+                    </a>
+                  </li>
+                  <li class="slider--item slider--item-left">
+                    <a href="#0">
+                      <div class="slider--item-image">
+                        <img src="assets/img/work-victory.jpg" alt="Vertical Advantage">
+                      </div>
+                      <p class="slider--item-title">Vertical Gardening</p>
+                      <p class="slider--item-description">Multiply space by 350%!</p>
+                    </a>
+                  </li>
+                  <li class="slider--item slider--item-right">
+                    <a href="#0">
+                      <div class="slider--item-image">
+                        <img src="assets/img/work-alex-nowak.jpg" alt="Integrated Composting">
+                      </div>
+                      <p class="slider--item-title">Integrated Composting</p>
+                      <p class="slider--item-description">Takes advantage of Earth Worms that come with the manure of desi cows to turn kitchen waste into compost!</p>
+                    </a>
+                  </li>
+                </ul>
+                <div class="slider--prev">
+                  <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                  viewBox="0 0 150 118" style="enable-background:new 0 0 150 118;" xml:space="preserve">
+                  <g transform="translate(0.000000,118.000000) scale(0.100000,-0.100000)">
+                    <path d="M561,1169C525,1155,10,640,3,612c-3-13,1-36,8-52c8-15,134-145,281-289C527,41,562,10,590,10c22,0,41,9,61,29
+                    c55,55,49,64-163,278L296,510h575c564,0,576,0,597,20c46,43,37,109-18,137c-19,10-159,13-590,13l-565,1l182,180
+                    c101,99,187,188,193,199c16,30,12,57-12,84C631,1174,595,1183,561,1169z"/>
+                  </g>
+                  </svg>
+                </div>
+                <div class="slider--next">
+                  <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 150 118" style="enable-background:new 0 0 150 118;" xml:space="preserve">
+                  <g transform="translate(0.000000,118.000000) scale(0.100000,-0.100000)">
+                    <path d="M870,1167c-34-17-55-57-46-90c3-15,81-100,194-211l187-185l-565-1c-431,0-571-3-590-13c-55-28-64-94-18-137c21-20,33-20,597-20h575l-192-193C800,103,794,94,849,39c20-20,39-29,61-29c28,0,63,30,298,262c147,144,272,271,279,282c30,51,23,60-219,304C947,1180,926,1196,870,1167z"/>
+                  </g>
+                  </svg>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li class="l-section section">
+            <div class="about">
+              <div class="about--banner">
+			    <div class="about_text">
+                <h2>Simple, Compact or Grand?</h2>
+                <p>We have three models.</p>
+		<ol><li><font color="lightgreen"><b>Simple</b></font> works best for those with ground. It is a hexagonal pyramid-like shape easily assembled into place.</li>
+		  <li><font color="lightblue"><b>Compact</b></font> is an urban friendly adaptation of Simple. It comes with in-built composting and allows one to reuse the water used. </li>
+		  <li><font color="orange"><b>Grand</b></font> is same as Compact, but Bigger! The same hexagonal</li>
+		</ol>
+                  <span>
+                    <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 150 118" style="enable-background:new 0 0 150 118;" xml:space="preserve">
+                    <g transform="translate(0.000000,118.000000) scale(0.100000,-0.100000)">
+                      <path d="M870,1167c-34-17-55-57-46-90c3-15,81-100,194-211l187-185l-565-1c-431,0-571-3-590-13c-55-28-64-94-18-137c21-20,33-20,597-20h575l-192-193C800,103,794,94,849,39c20-20,39-29,61-29c28,0,63,30,298,262c147,144,272,271,279,282c30,51,23,60-219,304C947,1180,926,1196,870,1167z"/>
+                    </g>
+                    </svg>
+                  </span>
+                </a>
+				</div>
+              </div>
+			  
+              <div class="about--options">
+                <a class="images" href="#openModal1">
+				  <h3>Simple</h3>
+                </a>
+                <a class="images" href="#openModal2">
+                  <h3>Compact</h3>
+                </a>
+                <a class="images" href="#openModal3">
+                  <h3>Grand</h3>
+                </a>
+				<!-- Model Pop up -->
+				<div id="openModal1" class="modalDialog">
+				<div>
+					<a href="#close" title="Close" class="close">X</a>
+					<div class="large_image">
+						<img src="assets/img/about-winners.jpg" alt="About Us">
+					</div>
+					<div class="content">
+						<h3 class="title">Lorem Ipsum is simply dummy text of the printing and typesetting industry</h3>
+						<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
+						Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
+						Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+					</div>
+				</div>
+				</div>
+				
+				<div id="openModal2" class="modalDialog">
+				<div>
+					<a href="#close" title="Close" class="close">X</a>
+					<div class="large_image">
+						<img src="assets/img/about-philosophy.jpg" alt="About Us">
+					</div>
+					<div class="content">
+						<h3 class="title">Lorem Ipsum is simply dummy text of the printing and typesetting industry</h3>
+						<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
+						Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
+						Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+					</div>
+				</div>
+				</div>
+				
+				<div id="openModal3" class="modalDialog">
+				<div>
+					<a href="#close" title="Close" class="close">X</a>
+					<div class="large_image">
+						<img src="assets/img/about-history.jpg" alt="About Us">
+					</div>
+					<div class="content">
+						<h3 class="title">Lorem Ipsum is simply dummy text of the printing and typesetting industry</h3>
+						<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+					</div>
+				</div>
+				</div>
+			  <!--./Modal pop up -->
+            </div>
+			</div>
+          </li>
+          <li class="l-section section">
+            <div class="contact">
+              <div class="contact--lockup">
+			  
+			   <div class="portfolio">
+				   <div class="gallery">
+						<div class="gallery-item">
+							<a href="assets/img/about-winners.jpg" class="lumos-link">
+								<img src="assets/img/about-winners.jpg">
+							</a>
+						</div>
+						<div class="gallery-item">
+							<a href="assets/img/about-winners.jpg" class="lumos-link">
+								<img src="assets/img/about-winners.jpg">
+							</a>
+						</div>
+						<div class="gallery-item">
+							<a href="assets/img/about-winners.jpg" class="lumos-link">
+								<img src="assets/img/about-winners.jpg">
+							</a>
+						</div>
+						
+						<div class="gallery-item">
+							<a href="assets/img/about-winners.jpg" class="lumos-link">
+								<img src="assets/img/about-winners.jpg">
+							</a>
+						</div>
+						<div class="gallery-item">
+							<a href="assets/img/about-winners.jpg" class="lumos-link">
+								<img src="assets/img/about-winners.jpg">
+							</a>
+						</div>
+						<div class="gallery-item">
+							<a href="assets/img/about-winners.jpg" class="lumos-link">
+								<img src="assets/img/about-winners.jpg">
+							</a>
+						</div>
+				</div>
+				
+				<!--<div class="portfolio-item">
+					<a href="#"><img src="assets/img/about-winners.jpg" alt="View more info" /></a>
+					<p class="btn"><a href="#">See more</a></p>
+				</div>-->
+              
+			  </div>
+			  <div class="modal">
+                  <div class="modal--information">
+                    <p>Pawia 5, 31-154 Kraków, Poland</p>
+                    <a href="mailto:ouremail@gmail.com">ouremail@gmail.com</a>
+                    <a href="tel:+148126287560">+48 12 628 75 60</a>
+                  </div>
+                  <ul class="modal--options">
+                    <li><a href="#0">Bēhance</a></li>
+                    <li><a href="#0">dribbble</a></li>
+                    <li><a href="mailto:ouremail@gmail.com">Contact Us</a></li>
+                  </ul>
+                </div>
+			  </div>	
+			</div>
+          </li>
+          <li class="l-section section">
+            <div class="hire">
+              <h2>Which Model?</h2>
+	      <p>Which Model are you likely to buy?</p>
+              <!-- checkout formspree.io for easy form setup -->
+              <form class="work-request">
+                <div class="work-request--options">
+                  <span class="options-a">
+                    <input id="opt-1" type="checkbox" value="Simple">
+                    <label for="opt-1">
+                      <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                      viewBox="0 0 150 111" style="enable-background:new 0 0 150 111;" xml:space="preserve">
+                      <g transform="translate(0.000000,111.000000) scale(0.100000,-0.100000)">
+                        <path d="M950,705L555,310L360,505C253,612,160,700,155,700c-6,0-44-34-85-75l-75-75l278-278L550-5l475,475c261,261,475,480,475,485c0,13-132,145-145,145C1349,1100,1167,922,950,705z"/>
+                      </g>
+                      </svg>
+                      Simple
+                    </label>
+                    <input id="opt-2" type="checkbox" value="Compact">
+                    <label for="opt-2">
+                      <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                      viewBox="0 0 150 111" style="enable-background:new 0 0 150 111;" xml:space="preserve">
+                      <g transform="translate(0.000000,111.000000) scale(0.100000,-0.100000)">
+                        <path d="M950,705L555,310L360,505C253,612,160,700,155,700c-6,0-44-34-85-75l-75-75l278-278L550-5l475,475c261,261,475,480,475,485c0,13-132,145-145,145C1349,1100,1167,922,950,705z"/>
+                      </g>
+                      </svg>
+                      Compact
+                    </label>
+                    <input id="opt-3" type="checkbox" value="Grand">
+                    <label for="opt-3">
+                      <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                      viewBox="0 0 150 111" style="enable-background:new 0 0 150 111;" xml:space="preserve">
+                      <g transform="translate(0.000000,111.000000) scale(0.100000,-0.100000)">
+                        <path d="M950,705L555,310L360,505C253,612,160,700,155,700c-6,0-44-34-85-75l-75-75l278-278L550-5l475,475c261,261,475,480,475,485c0,13-132,145-145,145C1349,1100,1167,922,950,705z"/>
+                      </g>
+                      </svg>
+                      Grand
+                    </label>
+                  </span>
+		  <p>Describe your space</p>
+                  <span class="options-b">
+                    <input id="opt-4" type="checkbox" value="Terrace">
+                    <label for="opt-4">
+                      <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                      viewBox="0 0 150 111" style="enable-background:new 0 0 150 111;" xml:space="preserve">
+                      <g transform="translate(0.000000,111.000000) scale(0.100000,-0.100000)">
+                        <path d="M950,705L555,310L360,505C253,612,160,700,155,700c-6,0-44-34-85-75l-75-75l278-278L550-5l475,475c261,261,475,480,475,485c0,13-132,145-145,145C1349,1100,1167,922,950,705z"/>
+                      </g>
+                      </svg>
+                      Terrace
+                    </label>
+                    <input id="opt-5" type="checkbox" value="Balcony">
+                    <label for="opt-5">
+                      <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                      viewBox="0 0 150 111" style="enable-background:new 0 0 150 111;" xml:space="preserve">
+                      <g transform="translate(0.000000,111.000000) scale(0.100000,-0.100000)">
+                        <path d="M950,705L555,310L360,505C253,612,160,700,155,700c-6,0-44-34-85-75l-75-75l278-278L550-5l475,475c261,261,475,480,475,485c0,13-132,145-145,145C1349,1100,1167,922,950,705z"/>
+                      </g>
+                      </svg>
+                      Balcony
+                    </label>
+                    <input id="opt-6" type="checkbox" value="Ground">
+                    <label for="opt-6">
+                      <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                      viewBox="0 0 150 111" style="enable-background:new 0 0 150 111;" xml:space="preserve">
+                      <g transform="translate(0.000000,111.000000) scale(0.100000,-0.100000)">
+                        <path d="M950,705L555,310L360,505C253,612,160,700,155,700c-6,0-44-34-85-75l-75-75l278-278L550-5l475,475c261,261,475,480,475,485c0,13-132,145-145,145C1349,1100,1167,922,950,705z"/>
+                      </g>
+                      </svg>
+                      Ground
+                    </label>
+                  </span>
+                </div>
+<!--                 <div class="work-request--information">
+                  <div class="information-name">
+                    <input id="name" type="text" spellcheck="false" name="name">
+                    <label for="name">Name</label>
+                  </div>
+                  <div class="information-email">
+                    <input id="email" type="email" spellcheck="false" name="email">
+                    <label for="email">Email</label>
+                  </div>
+				  <div class="information-phone">
+                    <input id="phone" type="text" spellcheck="false" name="phone">
+                    <label for="phone">Phone</label>
+                  </div>
+                </div>
+                <input type="submit" value="Send Request"> -->
+              </form>
+
+<form  class="work-request" action="https://docs.google.com/forms/d/e/1FAIpQLSdo7-jXzHyAgqrFGB3RRFU-H6FHefTzSFn2dZ49GqOPH7WFKQ/formResponse" 
+
+method="POST" id="ss-form" target="_self" 
+
+onsubmit=""><ol style="padding-left: 0"> 
+              <div class="work-request--information">
+                  <div class="information-name">
+                   <input id="name" name="name" type="text"  placeholder="Name">
+                  </div>
+                  <div class="information-email">
+                    <input id="email" name="email" type="text"  placeholder="Email">
+                  </div>
+          <div class="information-phone">
+               <input id="number" name="number" type="text" placeholder="Number">
+                  </div>
+                </div>
+
+
+<button id="ButtonSubmit" onclick="postContactToGoogle()" type="button" >Submit</button> 
+
+
+
+
+<script>
+    function postContactToGoogle() {
+        var name = $('#name').val();
+        var email = $('#email').val();
+        var number = $('#number').val();
+
+            $.ajax({
+
+                url: "https://docs.google.com/forms/d/e/1FAIpQLSdo7-jXzHyAgqrFGB3RRFU-H6FHefTzSFn2dZ49GqOPH7WFKQ/formResponse",
+                data: { "entry.350514573": name,
+                "entry.1309896648": email, "entry.1843888982":
+                number },
+                type: "POST",
+                dataType: "xml",
+                statusCode: {
+                    0: function () {
+                        alert("submitted");
+                    },
+                    200: function () {
+                        alert("submitted");
+                    }
+                }
+            });
+    }
+</script>
+
+
+
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <ul class="outer-nav">
+    <li class="is-active">Home</li>
+    <li>Features</li>
+    <li>Models</li>
+    <li>Pictures</li>
+    <li>Order now</li>
+  </ul>
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="assets/js/vendor/jquery-2.2.4.min.js"><\/script>')</script>
+<script src="assets/js/functions-min.js"></script>
+<script>
+$(".images").on('click',function(){
+   
+   var hello = $(this).attr('data-id');
+   $('.hideDivs').hide();
+   $('.about_text').hide();
+   $('#'+hello).show();
+});
+</script>
+<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script> 
+<script>
+// Get the modal
+var modal = document.getElementById('myModal');
+
+// Get the button that opens the modal
+var btn = document.getElementById("myBtn");
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks the button, open the modal 
+btn.onclick = function() {
+    modal.style.display = "block";
+}
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+    modal.style.display = "none";
+}
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
+}
+</script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="Lightbox/dist/js/lumos.js"></script>
+
+</body>
+</html>
